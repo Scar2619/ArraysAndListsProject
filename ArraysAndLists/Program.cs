@@ -10,7 +10,7 @@ namespace ArraysAndLists
             //TODO:
 
             // Create an int Array and populate numbers 1-10
-            var Array = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            var array = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
             /* Create two Lists of type int.
              * Name one List "evens"
@@ -26,13 +26,13 @@ namespace ArraysAndLists
              * Then add those numbers to either the evens List
              * or the odds List
              */
-            foreach (var num in Array)
+            foreach (var num in array)
                 if (num % 2 == 0)
                 {
                     evens.Add(num);
       
                 }
-            foreach (var num in Array)
+            foreach (var num in array)
                 if (num % 2 != 0)
                 {
                     odds.Add(num);
